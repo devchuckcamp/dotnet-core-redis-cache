@@ -3,8 +3,8 @@
 
 This section should list any major tools/libraries used for this project.
 
-* [![Redis][Redis.com]][Redis-url]
-* [![Docker][Docker.com]][DockerRedis-url]
+* [![Redis][Redis]][Redis-url]
+* [![Docker][Docker]][DockerRedis-url]
 
 ## Setting up Redis
 [port number] = 5004
