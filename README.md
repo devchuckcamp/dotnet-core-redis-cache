@@ -33,7 +33,7 @@ On `appsettings.json`Declare the redis endpoint, in my Project I had `localhost:
         "Redis": "[some name].redis.cache.windows.net:[port number],password=[azure generated password],"
     }
   }
-
+  ```
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [Redis]:https://img.shields.io/badge/Redis-4A4A55?style=for-the-badge&logo=redis&logoColor=FF3E00
