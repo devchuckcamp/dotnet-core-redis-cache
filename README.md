@@ -4,19 +4,19 @@
 This section should list any major tools/libraries used for this project.
 
 * [![Redis][Redis.com]][Redis-url]
-* [![Docker][Docker.com]][Docker-Redis-url]
+* [![Docker][Docker.com]][DockerRedis-url]
 
 ## Setting up Redis
 [port number] = 5004
 Pull and Run the redis image, feel free to declare the name and port number available on your machine.
-* npm
-  ```sh
+
+```sh
 run --name [image name] -p [port number]:6379 -d redis
   ```
 
-On `appsettings.json`Declare the redis endpoint, in my Project I had `localhost:[port number]`.
-* npm
-  ```sh
+On appsettings.json Declare the redis endpoint, in my Project I had localhost:[port number].
+
+```sh
   {
     "ConnectionStrings": {
         ..
@@ -24,18 +24,21 @@ On `appsettings.json`Declare the redis endpoint, in my Project I had `localhost:
         "Redis": "localhost:[port number]"
     }
   }
-  ```
+```
+
   If you're using Azure Redis Cache
   Override `appsettings.json` with user secrets on `secrets.json` and it should look similar to the object below:
-  ```sh
+
+```sh
   {
     "ConnectionStrings": {
         "Redis": "[some name].redis.cache.windows.net:[port number],password=[azure generated password],"
     }
   }
-  ```
+```
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Redis]:https://img.shields.io/badge/Redis-4A4A55?style=for-the-badge&logo=redis&logoColor=FF3E00
-[Docker]:https://img.shields.io/badge/Docker-086DD7?style=for-the-badge&logo=docker&logoColor=FAFAFA
-[Docker-Redis-url]: https://hub.docker.com/_/redis
+[Redis]: https://img.shields.io/badge/Redis-4A4A55?style=for-the-badge&logo=redis&logoColor=FF3E00
+[Redis-url]: https://redis.com
+[Docker]: https://img.shields.io/badge/Docker-086DD7?style=for-the-badge&logo=docker&logoColor=FAFAFA
+[DockerRedis-url]: https://hub.docker.com/_/redis
