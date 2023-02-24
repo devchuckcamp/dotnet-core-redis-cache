@@ -11,7 +11,7 @@ This section should list any major tools/libraries used for this project.
 Pull and Run the redis image, feel free to declare the name and port number available on your machine.
 
 ```sh
-run --name [image name] -p [port number]:6379 -d redis
+docker run --name [image name] -p [port number]:6379 -d redis
   ```
 
 On appsettings.json Declare the redis endpoint, in my Project I had localhost:[port number].
