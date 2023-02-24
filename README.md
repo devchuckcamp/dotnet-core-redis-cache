@@ -3,10 +3,8 @@
 
 This section should list any major tools/libraries used for this project.
 
-* [![Redis][Redis.io]][Redis-url]
+* [![Redis][Redis.com]][Redis-url]
 * [![Docker][Docker.com]][Docker-Redis-url]
-* [![Microsoft.Extensions.Caching.StackExchangeRedis][https://www.nuget.org/packages]][StackExchange-Redis-url]
-* [![Microsoft.Extensions.Caching.StackExchangeRedis][https://www.nuget.org/packages]][Microsoft-Extensions-Caching-StackExchangeRedis-url]
 
 ## Setting up Redis
 [port number] = 5004
@@ -36,8 +34,8 @@ On `appsettings.json`Declare the redis endpoint, in my Project I had `localhost:
     }
   }
 
-
-[Redis-url]: https://redis.io/
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Redis]:https://img.shields.io/badge/Redis-4A4A55?style=for-the-badge&logo=redis&logoColor=FF3E00
+[Docker]:https://img.shields.io/badge/Docker-086DD7?style=for-the-badge&logo=docker&logoColor=FAFAFA
 [Docker-Redis-url]: https://hub.docker.com/_/redis
-[StackExchange-Redis-url]:https://www.nuget.org/packages/StackExchange.Redis/
-[Microsoft-Extensions-Caching-StackExchangeRedis-url]:https://www.nuget.org/packages/Microsoft.Extensions.Caching.StackExchangeRedis
